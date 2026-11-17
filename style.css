@@ -39,6 +39,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row-reverse;
 }
 .separar {
   display: flex;
@@ -49,10 +50,36 @@
   border-radius: 8px;
   background-color: var(--cor-texto);
   padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
 }
 .timer {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 32px 0 32px 0;
+}
+.Nome {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+.score {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.time {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.vezJogada {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 8px;
 }
