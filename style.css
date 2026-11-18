@@ -83,3 +83,23 @@
   font-size: 1rem;
   margin-top: 8px;
 }
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.container div {
+  color: aqua;
+  background-color: #fff;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}

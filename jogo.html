@@ -32,6 +32,37 @@
           </div>
         </div>
       </div>
+
+      <section>
+        <div id="container" class="container"></div>
+      </section>
     </main>
+
+    <script>
+      const colors = [
+        "azul",
+        "branco",
+        "verde",
+        "amarelo",
+        "lilas",
+        "roxo",
+        "rosa",
+        "laranja",
+        "azul",
+        "branco",
+        "verde",
+        "amarelo",
+        "lilas",
+        "roxo",
+        "rosa",
+        "laranja",
+      ];
+      const container = document.querySelector("#container");
+      for (let i = 0; i < colors.length; i++) {
+        const novaDiv = document.createElement("div");
+        novaDiv.textContent = "game";
+        container.appendChild(novaDiv);
+      }
+    </script>
   </body>
 </html>
